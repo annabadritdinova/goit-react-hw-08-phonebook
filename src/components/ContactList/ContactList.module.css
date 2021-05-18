@@ -1,0 +1,30 @@
+.list {
+  width: 400px;
+  margin : auto;
+  margin-top: 20px;
+}
+  
+.item {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid ;
+  padding: 12px 5px;
+  
+}
+  
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+  
+.text {
+  padding: 2px;
+  margin: 2px;
+}
+  
+.button {
+  width: 75px;
+}
+
+.button:hover {
+  background-color: rgb(0, 140, 255);
+} 
